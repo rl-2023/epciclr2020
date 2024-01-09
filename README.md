@@ -1,3 +1,19 @@
+# RL 2023
+I have forked the original repo here because we need to make some augmentations to make it run. The paper uses old versions
+of tensorflow and gym which aren't compatible with newer versions, so the best way to run the code here is to use
+**Docker**. Hence, I have created a `Dockerfile` and `.dockerignore` to let us run the code.
+
+1. [Install docker](https://docs.docker.com/engine/install/): first you need to install docker.
+2. Build the image: run the command `sudo docker built -t maddpg:latest` to create the docker image for us to run in the
+    next steps.
+3. Run the image: run the command `sudo docker run maddpg:latest` to run the container. The container will run the `train_grassland_att.sh`
+    script by default.
+4. Stopping the container: run `sudo docker ps` and find the name of the running container (under `NAMES`) and then
+    `sudo docker stop <name>`.
+
+Everything below is from the **original authors**.
+
+---
 
 # Evolutionary Population Curriculum for Scaling Multi-Agent Reinforcement Learning
 

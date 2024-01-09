@@ -1,0 +1,66 @@
+# Exclude commonly unnecessary files and directories
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Exclude development and test-related files
+*.git
+*.gitignore
+*.gitattributes
+*.vscode
+*.idea
+*.editorconfig
+*.iml
+.dockerignore
+.docker
+.DS_Store
+*.bak
+*.swp
+*~*
+*.log
+tests
+test
+pytest.ini
+
+# Exclude build and package files
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.egg-info
+dist
+build
+
+# Exclude environment-specific files
+*.env
+.env.local
+.env.*.local
+.env.production
+.env.test
+.env.development
+.env.local
+.env
+
+# Exclude local development files
+venv
+.virtualenv
+.env/
+.envrc
+pip-wheel-metadata
